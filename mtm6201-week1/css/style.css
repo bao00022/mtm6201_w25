@@ -1,0 +1,50 @@
+body {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    min-height: 100vh;
+    padding: 0 10px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+}
+
+header, footer {
+    margin: 0 auto;
+}
+
+header hr {
+    border: red 1px solid;
+}
+
+main img {
+    height: 200px;
+    width: auto;
+}
+
+dl {
+    margin-left: 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 6px;
+}
+
+

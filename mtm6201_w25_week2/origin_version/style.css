@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+header {
+    display: flex;
+    height: 900px;
+    border: 1px solid black;
+}
+.Grid {
+    display:grid;
+    width: 800px;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+    grid-template-areas: 
+    "N N"
+    "G1 G2";
+}
+.Navigation {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: auto;   
+    border: 1px solid black; 
+    grid-area: N;
+}
+
+.div1 {
+    border: 1px solid black;
+}
+.Statics {
+    border: 1px solid black;
+}
+.Grid1 {
+    height: 800px;
+    display: grid;
+    grid-template-areas: 
+    "F I T"
+    "S S S"
+    "Fo L C";
+}
+.Facebook {
+    grid-area: F;
+}
+.Instagram {
+    grid-area: I;
+}
+.Tweitter {
+    grid-area: T;
+}
+.Statics {
+    grid-area: S;
+}
+.Followers {
+    grid-area: Fo;
+}
+.Likes {
+    grid-area: L;
+}
+.Comments {
+    grid-area: C;
+}
+.Grid2 {
+    flex-direction: row;
+    grid-area: G2;
+    border: 1px solid black;
+    display: grid ;
+    grid-template-rows: 3fr 2fr;
+}
+.Ryan {
+    border: 1px solid black;
+}
